@@ -1,0 +1,45 @@
+body {
+    background-image: url(./imagenes/arte\ surf\ \(4\).jpg);
+    background-size: cover;
+  }
+  
+  h1 {
+    color: #04be52;
+  }
+  
+  #carrito {
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  #lista-productos {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #total {
+    font-weight: bold;
+  }
+  
+  .producto {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .btn-agregar {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+  
+  #productos {
+    margin-top: 20px;
+}

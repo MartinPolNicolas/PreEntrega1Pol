@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrito de Compras - Productos de Surf</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Carrito de Compras - Productos de Surf</h1>
+
+  <div id="carrito">
+    <h2>Carrito de Compras</h2>
+    <ul id="lista-productos">
+      <!-- Aquí se agregarán dinámicamente los productos -->
+    </ul>
+
+    <h3>Total: <span id="total">$0</span></h3>
+
+    <button id="btn-comprar">Comprar</button>
+  </div>
+
+  <div id="productos">
+    <h2>Productos Disponibles</h2>
+    <div class="producto">
+      <h4>Tabla de Surf</h4>
+      <p>Precio: $500</p>
+      <button class="btn-agregar" data-nombre="Tabla de Surf" data-precio="500">Agregar al Carrito</button>
+    </div>
+
+    <div class="producto">
+      <h4>Neopreno</h4>
+      <p>Precio: $50.000</p>
+      <button class="btn-agregar" data-nombre="Neopreno" data-precio="200">Agregar al Carrito</button>
+    </div>
+
+    <!-- Agregar los nuevos productos -->
+    <div class="producto">
+      <h4>Parafinas</h4>
+      <p>Precio: $1.500</p>
+      <button class="btn-agregar" data-nombre="Parafinas" data-precio="15">Agregar al Carrito</button>
+    </div>
+
+    <div class="producto">
+      <h4>Pitas</h4>
+      <p>Precio: $8.000</p>
+      <button class="btn-agregar" data-nombre="Pitas" data-precio="10">Agregar al Carrito</button>
+    </div>
+
+    <div class="producto">
+      <h4>Quillas</h4>
+      <p>Precio: $5.000</p>
+      <button class="btn-agregar" data-nombre="Quillas" data-precio="50">Agregar al Carrito</button>
+    </div>
+
+    <div class="producto">
+      <h4>Secadores</h4>
+      <p>Precio: $30.000</p>
+      <button class="btn-agregar" data-nombre="Secadores" data-precio="30">Agregar al Carrito</button>
+    </div>
+
+    <div class="producto">
+      <h4>Mallas</h4>
+      <p>Precio: $25.000</p>
+      <button class="btn-agregar" data-nombre="Mallas" data-precio="25">Agregar al Carrito</button>
+    </div>
+
+    <!-- Otros productos -->
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
